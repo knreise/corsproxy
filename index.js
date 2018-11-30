@@ -7,7 +7,8 @@ var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
     originWhitelist: [
         'http://localhost:9000',
-        'http://http://knreise.no',
+        'http://knreise.no',
+        'http://www.knreise.no',
         'http://code.atlefren.net'
     ],
     requireHeader: ['origin', 'x-requested-with']
